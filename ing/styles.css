@@ -1,4 +1,8 @@
-body{
+html{
+  background-color: #0d1117;
+}
+
+body {
     position: absolute;
     left: 0px;
     right: 0px;
