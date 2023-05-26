@@ -23,19 +23,19 @@ body{
     height: 50px;
     width: 50px;
     overflow: hidden;
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255,255,255,0.05);
     cursor: pointer;
     border-radius: 50%;
 }
 
-.body {
+ul {
     position: absolute;
     top: 60px;
-    left: 0;
-    width: 100%;
+    left: 0px;
+    right: 0px;
 }
 
-.list-item {
+li {
     position: relative;
     left: 2px;
     right: 2px;
@@ -46,7 +46,7 @@ body{
     cursor: pointer;
 }
 
-.list-link {
+.link {
     position: absolute;
     width: 100%;
     height: 100%;
